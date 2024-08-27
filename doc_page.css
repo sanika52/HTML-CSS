@@ -1,0 +1,69 @@
+@media (max-width: 400px) {
+body{
+ font-size: 5rem;
+}
+}
+*{
+    box-sizing: content-box;
+}
+h1{
+    color: white;
+}
+body{
+    position: relative; 
+    display: flex;
+    gap: 50px;
+}
+.separator{
+    width: 5px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 180px;
+    background-color: grey;
+}
+.divider{
+    border-bottom: 2px solid grey;
+    margin-top: -10px;
+}
+.small-divider{
+    border-bottom: 1px solid grey;
+    margin-top: 10px;
+}
+.nav-link{
+  text-decoration: none;
+  
+}
+#navbar{
+    text-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding: 20px;
+  
+}
+
+.nav-link{
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    
+}
+.first{
+    margin-top: -25px;
+}
+main{
+    margin-left: 300px;
+}
+p{
+    padding-left: 25px;
+}
+code{
+    background-color: #F5F5F5;
+    padding-left: 50px;
+}

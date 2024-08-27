@@ -1,0 +1,40 @@
+h1{
+    font-family: 'Lucida Sans';
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+#main_heading{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -105px;
+    height: 75px;
+    width: 400px;
+    background-color:black;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 50px auto;
+    border: 1px solid black;
+}
+figcaption{
+    text-align: center;
+    margin-top: -40px; 
+}
+h2{
+    text-align: center;
+    margin-top: 35px;
+}
+body{
+    font-family: 'Gill Sans';
+    background-color: lightgrey;
+}
+
+
+
+#tribute-info>ul>li{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
